@@ -151,12 +151,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AKAODrv.cpp" />
     <ClCompile Include="midif.cpp" />
+    <ClCompile Include="MmlWriter.cpp" />
     <ClCompile Include="smf02mml.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AKAOCMD.h" />
+    <ClInclude Include="AKAODrv.h" />
     <ClInclude Include="appli.h" />
     <ClInclude Include="midif.h" />
+    <ClInclude Include="MmlWriter.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
